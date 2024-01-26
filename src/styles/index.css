@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Source+Sans+3:wght@400;700&display=swap");
+
+:root {
+    --font-primary: "Nunito";
+    --font-secondary: "Source Sans 3";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-secondary);
+}
+
+body {
+    background-color: black;
+}
+
+.homeContainer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.heading {
+    font-size: 64px;
+    text-align: center;
+}
+
+.para {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navBar {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 34px;
+    font-size: 24px;
+
+}
+
+.logo {
+    color: red;
+    font-size: 32px;
+}
+
+.navbarTitle {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--font-primary);
+}
+
+.container {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    width: 90%;
+
+}
+
+.youtube-icon {
+    margin: 0 10px;
+    fill: grey;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    width: 80%;
+    outline: none;
+
+}
+
+button {
+    background-color: #FF0000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+
+.a {
+    width: 60%;
+    display: flex;
+    margin-top: 50px;
+}
+
+thead>tr {
+    background-color: rgb(54, 53, 53);
+    border: none;
+    padding: 20px 0 !important;
+}
+
+th {
+    padding: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 85%;
+    border-spacing: 90px;
+    text-indent: 0;
+}
+
+tbody>tr {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.resultPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    /* gap: 10px; */
+}
+
+.resultHeading {
+    font-size: 20px;
+    margin-block: 32px 24px;
+}
+
+td {
+    margin-right: 30px;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+.videoCardConatiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    gap: 20px;
+    padding: 40px 60px;
+    height: 180px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 14px;
+    margin-top: 30px;
+}
+
+.section1 {
+    width: 34%;
+}
+
+.section2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.section3 {
+    width: 33%;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* text-align: center; */
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 8px;
+    height: 180px;
+}
+
+.sectionImg {
+    width: 100%;
+    height: 150px;
+}
+
+.pill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(110, 110, 110);
+    border-radius: 4px;
+    width: 50%;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 8px 6px;
+}
+
+.pill>svg {
+    stroke: black;
+    fill: black;
+}
+
+.section2>p {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    /* line-height: 38px; */
+}
+
+.section3div {
+    height: 20px;
+    width: 30%;
+    background-color: white;
+    border-radius: 24px;
+    padding: 10px 20px;
+
+}
+
+.b {
+    /* margin-left: 10px; */
+    display: flex;
+    gap: 10px;
+    /* justify-content: center;
+align-items: center; */
+}
