@@ -13,7 +13,9 @@ const Result = () => {
 
   const fetchData = async (id) => {
     try {
-      let response = await fetch(`http://localhost:8000/search?id=${id}`);
+      let response = await fetch(
+        `https://youtube-analyser-68s2.onrender.com/search?id=${id}`
+      );
       setLoading(true);
       if (response.status === 200) {
         let resultData = await response.json();
