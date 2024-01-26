@@ -2,6 +2,7 @@ import VideoElement from "../components/UI/VideoElement";
 import VideoTable from "../components/UI/VideoTable";
 import { useLocation } from "react-router-dom";
 import { Fragment, useEffect, useState } from "react";
+import Loader from "../components/Common/Loader";
 
 const Result = () => {
   const location = useLocation();
@@ -40,7 +41,7 @@ const Result = () => {
   }, [videoId]);
 
   return loading ? (
-    "Loading.."
+    <Loader></Loader>
   ) : data ? (
     <div className="resultPage">
       <VideoElement videosData={data && data.base ? data.base : {}} />
